@@ -22,8 +22,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure
 - Microsoft Remote Desktop Application (macOS users)
 - PHP Manager
-- Item 4
-- Item 5
+- Rewrite Module
+- C++ Redistributable
+- 
 
 <h2>Installation Steps</h2>
 
@@ -85,11 +86,57 @@ Step 8: Download <a href="https://drive.google.com/drive/u/1/folders/1APMfNyfNzc
 </p>
 <br />
 
-Step 9: Extract contents into the PHP folder that was just created in the C Drive
+Step 9: Extract contents into the PHP folder that was just created on the C Drive
 <p>
 <img width="1433" alt="Screenshot 2023-07-17 at 12 24 38 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/a640bd4a-547b-44c2-be0d-42cfe5793a0f">
 </p>
 <br />
 
-Step 10: 
+Step 10: Download <a href="https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">C++ Redistributable </a> (VC_redist) which is located in the Google Docs folder
+<p>
+<img width="1433" alt="Screenshot 2023-07-17 at 12 30 05 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/fc439932-e99d-470c-afad-4dbf7c1815d5">
+</p>
+<br />
+
+Step 11: Download <a href="https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">MySQL Server (Typical) </a> which is located in the Google Docs folder
+<p>
+<img width="1433" alt="Screenshot 2023-07-17 at 12 33 37 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/387030a8-0b07-412b-90d8-742688d22c21">
+</p>
+<br />
+
+Step 12: Configure MySQL Server
+<p>
+<img width="1433" alt="Screenshot 2023-07-17 at 12 36 47 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/4a635dd8-aab6-49eb-bc50-5e304b523547">
+</p>
+<img width="1433" alt="Screenshot 2023-07-17 at 12 37 32 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/341bf8f0-c5f3-45d4-9053-4c3dc5a75dd1">
+<p>
+<img width="1433" alt="Screenshot 2023-07-17 at 12 38 26 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/59d2b56c-9d90-4712-a877-c1e202a6563b">
+</p>
+<img width="1433" alt="Screenshot 2023-07-17 at 12 39 08 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/affea85b-d35a-45d1-9231-e36781d6856e">
+<p>
+<img width="1433" alt="Screenshot 2023-07-17 at 12 39 57 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/79795bed-8fe2-4440-8bd3-ed7eb500f9e0">
+</p>
+<br />
+
+Step 13: Run IIS as an administrator - Open the PHP Manager - Register new PHP version - Locate and open php-cgi to register PHP
+<p>
+<img width="1433" alt="Screenshot 2023-07-17 at 12 41 48 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/6c300d71-6ea6-4f4f-b5c5-9af236efb297">
+</p>
+<img width="1433" alt="Screenshot 2023-07-17 at 12 43 59 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/486671bd-70ab-4bf9-ac4e-af0300e47a07">
+<p>
+<img width="1433" alt="Screenshot 2023-07-17 at 12 45 50 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/cdb23954-407d-4a96-85a0-41226b9c2c90">
+</p>
+<img width="1433" alt="Screenshot 2023-07-17 at 12 48 55 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/55e88d52-0dd8-4bd7-a46c-deb29d78af02">
+<p>
+Navigate back to the VM-osTicket homepage in IIS and click "Restart"
+<p>
+<img width="1433" alt="Screenshot 2023-07-17 at 1 00 53 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/0317c168-5dda-424f-98dc-4875466db286">
+
+
+
+
+
+
+
+
 
