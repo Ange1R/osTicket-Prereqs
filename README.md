@@ -21,10 +21,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Microsoft Azure
 - Microsoft Remote Desktop Application (macOS users)
+- Internet Information Services (IIS)
 - PHP Manager
 - Rewrite Module
 - C++ Redistributable
-- 
+- MySQL Server
+- osTicket
+- HiediSQL
 
 <h2>Installation Steps</h2>
 
