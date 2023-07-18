@@ -28,6 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - MySQL Server
 - osTicket
 - HiediSQL
+- Installation Files (https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
 <h2>Installation Steps</h2>
 
