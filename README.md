@@ -128,15 +128,132 @@ Step 13: Run IIS as an administrator - Open the PHP Manager - Register new PHP v
 </p>
 <img width="1433" alt="Screenshot 2023-07-17 at 12 48 55 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/55e88d52-0dd8-4bd7-a46c-deb29d78af02">
 <p>
-Navigate back to the VM-osTicket homepage in IIS and click "Restart"
-<p>
+Navigate back to the VM-osTicket homepage in IIS and click "Restart" located on the right side menu 
+</p>
 <img width="1433" alt="Screenshot 2023-07-17 at 1 00 53 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/0317c168-5dda-424f-98dc-4875466db286">
+<p>
+<br />
+  
+Step 14: Download <a href="https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">osTicket </a> which is located in the Google Docs folder then extract the "upload" folder (located in the osTicket zip file) into the Windows (C:) > inetpub > wwwroot file path 
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 22 58 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/b2ea4098-4b52-4894-b9a5-df54357dfbd2">
+</p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 26 37 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/c7328dde-01e5-425d-95de-62be51681266">
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 30 50 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/c03f0b52-bf94-4447-ac2c-f307494c51e9">
+</p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 32 29 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/e6d95b3c-b97e-4b92-8d63-309c0a73158d">
+<p>
+Rename the "upload" folder to "osTicket"
+</p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 35 25 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/815bbcd8-c666-42a9-b806-945dfb04f653">
+<p>
+Navigate back to the VM-osTicket homepage in IIS and click "Restart" located on the right side menu
+</p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 37 22 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/1c511391-d38b-4789-bde8-fee190044f7e">
+<p>
+Navigate to osTicket Home in IIS by hitting the down arrows on "Sites" and "Default Web Site" on the left side menu
+</p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 40 42 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/6da95bbe-078a-47e1-b050-1a5d076c9da9">
+<p>
+Once there, select "Browse *:80(http)" which is located on the right side menu which will open osTicket Installer on your web browser
+</p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 42 51 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/c1158e85-de85-4dc2-b8e5-5eb1e53fa1a2">
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 45 35 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/c1a60224-53bf-4a9c-9dbf-ea655c82ebd1">
+</p>
+<br />
 
+Step 15: Navigate back to osTicket Home in IIS - select PHP Manager - select "Enable or disable an extension" - and enable php_imap.dll, php_intl.dll, and php_opcache.dll
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 49 07 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/01b32106-39df-4853-977c-b7867d50ff6f">
+</p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 50 50 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/61a64daf-caf8-405a-b944-8f9e16f38768">
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 55 57 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/41e6c988-41aa-4335-98b3-2962cf1b0f0c">
+</p>
+Refresh the browser with osTicket and the extensions that were enabled should have a green check mark now
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 10 58 53 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/547fdded-9197-4e8a-8127-759074be36ce">
+</p>
+<br />
 
+Step 16: Locate the file "ost-sampleconfig.php" which is in the Windows(C:)>inetpub>wwwroot>osTicket>include file path and rename it to "ost-config.php"
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 03 57 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/f2d1dfb3-6321-4f44-858a-ce4ad7bd85ab">
+</p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 04 09 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/e0cc2161-da09-41f6-9c82-3ea74629b6c9">
+<p>
+<br />
 
+Step 17: Open up the properties for ost-config.php - choose the Security tab - open advanced settings
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 09 30 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/2dae2501-2691-4cab-96ce-294bab13d5f2">
+</p>
+Disable inheritance once in the advanced settings section (remove all inherited permissions)
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 11 21 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/b4c5371b-906e-41aa-9c30-c17201b5df21">
+</p>
+Click "Add" to add permissions
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 12 57 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/dccd98ff-dae1-4ba8-b34b-6671708cf55a">
+</p>
+Select a principal - Enter "Everyone" in the space provided - Check names and click OK
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 17 19 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/35801aed-7a09-470f-9acf-d78bf0b9ee00">
+</p>
+Check all boxes for permissions and click OK
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 18 16 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/346eb80c-fcc7-46b2-81c6-ec64aec14f7b">
+</p>
+<br />
 
+Step 18: Go back to the browser with osTicket, click continue, and fill in the information in the system settings and admin user sections
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 33 20 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/3ad062c8-9cd6-43b6-a6d6-c93d3fa24f94">
+</p>
+<br />
 
+Step 19: Download/Install <a href="https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">HeidiSQL </a> which is located in the Google Docs folder
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 37 42 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/01d40584-4774-42b7-9f47-f39d1d20206c">
+</p>
+Open HiediSQL - select "New" in the left hand corner - enter the password that was created when registering MySQL Server (keep in mind the username is root) - select Open
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 43 11 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/5c4f9719-b06e-4449-85cb-b298d37e8939">
+</p>
+Create a new database named "osTicket"
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 46 02 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/31e65138-b1f1-45d0-904e-f99429b3b396">
+</p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 46 58 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/6a45926d-0e72-4025-928b-625e54b83401">
+<p>
+<br />
 
+Step 20: Go back to the browser with osTicket and fill in the Database Settings section with the database just created and username and password used for MySQL Server - Install
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 52 20 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/1dc833e0-d678-4235-82e0-5f68067c0cda">
+</p>
+<img width="1433" alt=Screenshot 2023-07-18 at 11 53 41 AM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/87db2807-b88b-4642-9c5b-3ef3c5f09e36">
+<p>
+CONGRATULATIONS 🎉, hopefully it installed with no errors!
+</p>
+<br />
 
+CLEAN-UP
 
+Step 1: Delete C:\inetpub\wwwroot\osTicket\setup
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 12 01 55 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/6b7eda1f-45fd-455a-8225-3121659f400f">
+</p>
+<br />
 
+Step 2: Navigate back to ost-config.php (located in Windows(C:)>inetpub>wwwroot>osTicket>include file path) - Open properties - Choose the Security tab - Advanced - Edit - Uncheck all boxes excluding the Read options - Click Apply and OK
+<p>
+<img width="1433" alt=Screenshot 2023-07-18 at 12 05 45 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/122eb357-4ca1-4bbb-ab4d-b5568a07547d">
+</p>
+<img width="1433" alt=Screenshot 2023-07-18 at 12 08 44 PM" src="https://github.com/areyes302/osticket-prereqs/assets/139584521/388b76f4-34b0-4ff7-885c-d9c8b061ed92">
+<p>
+<br />
+
+You're all done! ✔️  osTicket is now installed
