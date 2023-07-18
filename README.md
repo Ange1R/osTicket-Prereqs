@@ -260,4 +260,4 @@ Step 2: Navigate back to ost-config.php (located in Windows(C:)>inetpub>wwwroot>
 <p>
 <br />
 
-You're all done! ✔️  osTicket is now installed
+You're all done! ✔️
